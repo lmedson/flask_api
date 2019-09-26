@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  app:
+    container_name: flask-api
+    env_file:
+    - .env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    
