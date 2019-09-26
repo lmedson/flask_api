@@ -1,6 +1,6 @@
 from flask import Blueprint, current_app, request, jsonify
-from .model import Product
-from .serializer import ProductSchema
+from ..Models.Product import Product
+from ..serializer import ProductSchema
 
 bp_products = Blueprint('products', __name__)
 
