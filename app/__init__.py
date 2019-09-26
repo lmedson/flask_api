@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_migrate import Migrate
-from .model import configure as config_db
+from .Models.Product import configure as config_db
 from .serializer import configure as config_ma
 
 def create_app():
@@ -18,6 +18,6 @@ def create_app():
     # setup migration
     Migrate(app, app.db)
 
-    from .products import bp_products
+    from .Controllers.ProductController import bp_products
     app.register_blueprint(bp_products)
     return app

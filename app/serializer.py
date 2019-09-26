@@ -1,6 +1,6 @@
 from marshmallow import fields, validates, ValidationError
 from flask_marshmallow import Marshmallow
-from .model import Product
+from .Models.Product import Product
 
 ma = Marshmallow()
 
