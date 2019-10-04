@@ -35,3 +35,7 @@ If everything goes well you will have this result in your terminal:
  * Debug mode: off
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
+
+### Running with docker
+
+Create `.env` file with vars `FLASK_APP=app, FLASK_ENV=Development, export FLASK_DEBUG=True` and run docker-compose up.
