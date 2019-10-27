@@ -3,7 +3,7 @@
 ## Installing the dependencies
 
 Install the dependencies with pip, running:
-`$ pip install -r requeriments.txt`.
+`$ pip install -r requirements.txt`.
 
 ## Setup env vars
 ```bash
